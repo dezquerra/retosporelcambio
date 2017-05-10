@@ -1,0 +1,31 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Challenge extends CI_Controller {
+	
+	public function index()
+	{
+		$this->load->view('show_challenges');
+	}
+	
+	public function manage()
+	{
+		$this->load->view('welcome_page');
+	}
+	
+	public function admin()
+	{
+		
+	}
+	
+	public function add()
+	{
+		
+	}
+	
+	public function modify($challengeID)
+	{
+		
+	}
+}
+?>
